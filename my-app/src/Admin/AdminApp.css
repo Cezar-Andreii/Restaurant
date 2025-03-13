@@ -1,0 +1,46 @@
+.admin-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.admin-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.admin-list-item {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.admin-button {
+    margin: 5px;
+    padding: 8px 12px;
+    font-size: 14px;
+    color: white;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.admin-button.delete {
+    background-color: #f44336;
+}
+
+.admin-button:hover {
+    opacity: 0.8;
+}
+
+.form-group {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.edit-form {
+    margin-top: 20px;
+}
